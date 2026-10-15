@@ -18,4 +18,6 @@ An isolated copy of version 1.9 was checked on September 10, 2026: **56 tests pa
 
 The full research package and execution record are local working artifacts. This public case study is a bounded description of that work; source and detailed certificates can be prepared for review separately.
 
+The [PCL v1.4 foundations manuscript](../papers/primitive-constructive-logic-v1.4.pdf) is conceptually related. Its version number belongs to the manuscript series; it is distinct from this exact-algebra package's v1.9 software version and does not serve as a test report for the package.
+
 [Back to portfolio](../README.md)

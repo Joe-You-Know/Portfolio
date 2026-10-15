@@ -1,0 +1,136 @@
+{
+  "description": "Fresh, self-contained integer-root comparison; not a reproduction of earlier saved benchmarks",
+  "generated_utc": "2026-10-15T21:46:02.462023+00:00",
+  "python": "3.12.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 913,
+  "repeats_per_measurement": 3,
+  "cases": [
+    {
+      "operand_bits": 1023,
+      "degree": 2,
+      "fixture_sha256": "664df6676f1c865b6c0bd0ed7bcc780639a719a0ed90d65c016de05064bec329",
+      "reference": "math.isqrt",
+      "reference_median_ns": 1900,
+      "radix_block_variants": [
+        {
+          "block_bits": 8,
+          "median_ns": 118800
+        },
+        {
+          "block_bits": 16,
+          "median_ns": 122400
+        },
+        {
+          "block_bits": 32,
+          "median_ns": 123700
+        }
+      ]
+    },
+    {
+      "operand_bits": 1023,
+      "degree": 3,
+      "fixture_sha256": "664df6676f1c865b6c0bd0ed7bcc780639a719a0ed90d65c016de05064bec329",
+      "reference": "binary_search",
+      "reference_median_ns": 180700,
+      "radix_block_variants": [
+        {
+          "block_bits": 8,
+          "median_ns": 106900
+        },
+        {
+          "block_bits": 16,
+          "median_ns": 111700
+        },
+        {
+          "block_bits": 32,
+          "median_ns": 116800
+        }
+      ]
+    },
+    {
+      "operand_bits": 4095,
+      "degree": 2,
+      "fixture_sha256": "34cd9e2714608e34c9b265928835f5e42f1220e287c73e57a542dd3fc29e0055",
+      "reference": "math.isqrt",
+      "reference_median_ns": 7300,
+      "radix_block_variants": [
+        {
+          "block_bits": 8,
+          "median_ns": 2191600
+        },
+        {
+          "block_bits": 16,
+          "median_ns": 1916500
+        },
+        {
+          "block_bits": 32,
+          "median_ns": 1915000
+        }
+      ]
+    },
+    {
+      "operand_bits": 4095,
+      "degree": 3,
+      "fixture_sha256": "34cd9e2714608e34c9b265928835f5e42f1220e287c73e57a542dd3fc29e0055",
+      "reference": "binary_search",
+      "reference_median_ns": 7091300,
+      "radix_block_variants": [
+        {
+          "block_bits": 8,
+          "median_ns": 2465700
+        },
+        {
+          "block_bits": 16,
+          "median_ns": 2463400
+        },
+        {
+          "block_bits": 32,
+          "median_ns": 2495200
+        }
+      ]
+    },
+    {
+      "operand_bits": 8192,
+      "degree": 2,
+      "fixture_sha256": "fb37ee7d0275919107fd3ebb1ed778cd094d97bb021612896e9404933427a16a",
+      "reference": "math.isqrt",
+      "reference_median_ns": 29000,
+      "radix_block_variants": [
+        {
+          "block_bits": 8,
+          "median_ns": 13025700
+        },
+        {
+          "block_bits": 16,
+          "median_ns": 13309000
+        },
+        {
+          "block_bits": 32,
+          "median_ns": 13106700
+        }
+      ]
+    },
+    {
+      "operand_bits": 8192,
+      "degree": 3,
+      "fixture_sha256": "fb37ee7d0275919107fd3ebb1ed778cd094d97bb021612896e9404933427a16a",
+      "reference": "binary_search",
+      "reference_median_ns": 34509900,
+      "radix_block_variants": [
+        {
+          "block_bits": 8,
+          "median_ns": 16663400
+        },
+        {
+          "block_bits": 16,
+          "median_ns": 16493700
+        },
+        {
+          "block_bits": 32,
+          "median_ns": 16985300
+        }
+      ]
+    }
+  ]
+}

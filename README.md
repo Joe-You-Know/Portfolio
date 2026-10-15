@@ -12,10 +12,16 @@ This repository extends my GitHub profile with a curated view of selected work. 
 | Wellbore geology modeling | Grouped validation, typewell coverage analysis, and experimental predictive modeling | [Read the case study](case-studies/wellbore-modeling.md) |
 | ConstructiveRT | System diagnostics, report-first classification, and transfer-boundary profiling | [Read the case study](case-studies/constructive-rt.md) |
 | Double-slit numerical prototype | Parameter sweeps, calibrated detector outputs, and transparent error reporting | [Read the case study](case-studies/double-slit-simulation.md) |
+| Exact integer-root benchmark | A runnable reference comparison with correctness checks and recorded timings | [Read the case study](case-studies/integer-roots.md) |
+
+## Selected papers
+
+The [curated papers list](papers/README.md) includes the current Primitive Constructive Logic foundations manuscript and a shorter paper on constructive measure and simplex closure. The list is intentionally selective; paper claims are presented as research arguments, not independent validation.
 
 ## Public code
 
 - [CIM](https://github.com/Joe-You-Know/CIM) — exploratory modeling and visualization code. Its research claims require separate validation.
+- [Integer-root benchmark](benchmarks/integer_roots.py) — a self-contained Python demonstration with a [saved run](benchmarks/integer_roots_results.json).
 
 ## How I work
 
