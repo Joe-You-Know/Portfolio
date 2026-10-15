@@ -2,7 +2,7 @@
 
 I build research software and practical diagnostic tools. My work combines exact mathematics, Python automation, careful measurement, and a habit of making the limits of a result visible.
 
-This repository is the public home for selected project case studies. Each one separates what I built from what I tested and what remains open.
+This repository extends my GitHub profile with a curated view of selected work. It is a place to find concise case studies, inspect public code where available, and understand the evidence behind each project. Each case study separates what I built from what I tested and what remains open.
 
 ## Selected work
 
@@ -14,7 +14,6 @@ This repository is the public home for selected project case studies. Each one s
 ## Public code
 
 - [CIM](https://github.com/Joe-You-Know/CIM) — exploratory modeling and visualization code. Its research claims require separate validation.
-- [Portfolio site source](index.html) — a lightweight, accessible single-page site with no build step or external dependencies.
 
 ## How I work
 
