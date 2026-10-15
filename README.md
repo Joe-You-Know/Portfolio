@@ -13,6 +13,7 @@ This repository extends my GitHub profile with a curated view of selected work. 
 | ConstructiveRT | System diagnostics, report-first classification, and transfer-boundary profiling | [Read the case study](case-studies/constructive-rt.md) |
 | Double-slit numerical prototype | Parameter sweeps, calibrated detector outputs, and transparent error reporting | [Read the case study](case-studies/double-slit-simulation.md) |
 | Exact integer-root benchmark | A runnable reference comparison with correctness checks and recorded timings | [Read the case study](case-studies/integer-roots.md) |
+| CausalCodex/GPT | Local model-runtime engineering and measured iteration on expert caching | [Read the development summary](case-studies/causalcodex-gpt.md) |
 
 ## Selected papers
 
