@@ -1,0 +1,49 @@
+{
+  "schema": "constructivert-v023-windows-summary-v1",
+  "date_utc": "2026-11-10T16:28:44Z",
+  "origin": "aggregate transcribed from archived user-operated Windows balanced benchmark and verification checkpoint; not raw trial data",
+  "platform": "Windows x64, MSVC native v0.23",
+  "fixture": {
+    "description": "NumPy 2.1.3 cp312 Windows x64 wheel",
+    "bytes": 12566858,
+    "sha256": "0d30c543f02e84e92c4b1f415b7c6b5326cbe45ee7882b6b77db7195fb971e3a"
+  },
+  "trial_plan": {
+    "trials_per_method": 12,
+    "methods": 3,
+    "total_trials": 36,
+    "verified_successes": 36,
+    "execution_orders": "all six permutations represented twice"
+  },
+  "methods": [
+    {
+      "id": "curl",
+      "label": "curl plus independent hash",
+      "median_elapsed_ms": 1943.249
+    },
+    {
+      "id": "native-full",
+      "label": "native full GET",
+      "median_elapsed_ms": 1988.228
+    },
+    {
+      "id": "native-ranges",
+      "label": "native 4-worker ranges",
+      "median_elapsed_ms": 1999.053
+    }
+  ],
+  "native_test_record": {
+    "windows_ctest_passed": 3,
+    "windows_ctest_total": 3,
+    "linux_ctest_passed": 3,
+    "linux_ctest_total": 3,
+    "source_manifest_sha256_passed": 27,
+    "source_manifest_entries": 27
+  },
+  "interpretation": "No performance speedup shown. Native full and native ranged transfers were slower than curl by the recorded medians.",
+  "boundaries": [
+    "These are aggregates, not the original per-trial raw records.",
+    "The verification script checks consistency only, not network performance or source implementation.",
+    "Server, network and host conditions may change results."
+  ]
+}
