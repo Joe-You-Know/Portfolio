@@ -33,6 +33,10 @@ A public [structured aggregate record](../benchmarks/constructivert_v023_windows
 
 For historical Python tools and test context, see the [longer case study](../case-studies/constructive-rt.md).
 
+## Separate compiler-proof research line (November 17)
+
+The newer [Constructive Runtime v1.4.5 authenticated proof-update checkpoint](../research/2026-11-17-prta-crt-causal-checkpoint.md) concerns C++17 source-preserving proof revalidation and is **not** an upgrade of the native C++20 HTTP downloader described above. It reports change-sensitive authenticated receipt verification, but **not** end-to-end incremental compilation speedup.
+
 ## 4. What remains unresolved?
 
 - Reproduce the Windows network comparison from an independent, checked-out public source release.
