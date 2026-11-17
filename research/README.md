@@ -1,6 +1,6 @@
 # Research: CIM / PCL and exact computational experiments
 
-This section separates the underlying mathematical ideas, bounded executable tests and unresolved research problems.
+See the [November 17 PRTA / CRT / causal checkpoint](2026-11-17-prta-crt-causal-checkpoint.md) for newer bounded records; this index is not an exhaustive list of active research revisions.\n\nThis section separates the underlying mathematical ideas, bounded executable tests and unresolved research problems.
 
 | Research thread | Public material | Verification boundary |
 | --- | --- | --- |
