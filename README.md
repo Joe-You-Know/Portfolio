@@ -14,6 +14,10 @@ I build inspectable systems for difficult problems: local AI infrastructure, des
 
 Each featured study answers: **What problem? What implementation? What verification? What remains unresolved?** Supporting artifacts are identified by provenance and accessibility.
 
+## Recent research (November 2026)
+
+- [November 17 research checkpoint](research/2026-11-17-prta-crt-causal-checkpoint.md) — PRTA source-owned contact release and exact planar transport, authenticated incremental proof revalidation (CRT v1.4.5), and output-only causal intervention controls. These are distinct, bounded research records; the underlying projects continue to evolve.
+
 ## More engineering & scientific work
 
 - **[Case studies](case-studies/README.md)** — exact algebra, wellbore prediction, model-runtime optimization, optics prototype, integer roots, and earlier ConstructiveRT diagnostics.
@@ -30,4 +34,4 @@ Some active research source repositories are **private**. Public pages here prov
 
 ## Contact
 
-For engineering opportunities or collaboration, reach me through [my GitHub profile](https://github.com/Joe-You-Know). This portfolio was updated on November 10, 2026.
+For engineering opportunities or collaboration, reach me through [my GitHub profile](https://github.com/Joe-You-Know). This portfolio's research index was updated on November 17, 2026.
