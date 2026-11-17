@@ -6,3 +6,7 @@ This is a small, curated set of research manuscripts. Their arguments and conclu
 2. **[The Primitive Measure Theorem: Constructive Measure and Minimal Simplex Closure](primitive-measure-theorem-2026.pdf)** (revised June 11, 2026). This shorter paper argues a conditional claim: if a finite vertex-defined primitive must itself contribute positive measure in its dimension, the minimal closed form is an n-simplex. It explicitly limits that claim and does not reject calculus, measure theory, or coordinate methods.
 
 These are the selected revisions for this portfolio, rather than an archive of every draft.
+
+## Additional recent technical records
+
+- [PRTA–rhombus v0.38, Constructive Runtime v1.4.5, and output-only causal intervention audit — November 17 research checkpoint](../research/2026-11-17-prta-crt-causal-checkpoint.md). This index summarizes the supplied research manuscripts and their limitations; the manuscript PDFs and executable packages are not yet hosted here. Do not treat this checkpoint as the latest revision of every active research line.
